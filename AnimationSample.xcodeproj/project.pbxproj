@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A24BABD41B4CB8EA00FE04B7 /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24BABD31B4CB8EA00FE04B7 /* RepeatViewController.swift */; };
+		A24BABD61B4CC49600FE04B7 /* EasingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24BABD51B4CC49600FE04B7 /* EasingViewController.swift */; };
+		A24BABD81B4CCD4000FE04B7 /* SpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24BABD71B4CCD4000FE04B7 /* SpringViewController.swift */; };
+		A288DDE81B6E194A00DD711E /* MassEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288DDE71B6E194A00DD711E /* MassEffectViewController.swift */; };
+		A288DDEA1B6E502E00DD711E /* SpecialLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288DDE91B6E502E00DD711E /* SpecialLoginView.swift */; };
 		A2AF371E1B4BAAF800997496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF371D1B4BAAF800997496 /* AppDelegate.swift */; };
 		A2AF37201B4BAAF800997496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF371F1B4BAAF800997496 /* ViewController.swift */; };
 		A2AF37231B4BAAF800997496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2AF37211B4BAAF800997496 /* Main.storyboard */; };
 		A2AF37251B4BAAF800997496 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AF37241B4BAAF800997496 /* Images.xcassets */; };
 		A2AF37281B4BAAF800997496 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2AF37261B4BAAF800997496 /* LaunchScreen.xib */; };
 		A2AF37341B4BAAF800997496 /* AnimationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF37331B4BAAF800997496 /* AnimationSampleTests.swift */; };
+		A2D7BCD51B4BADB8001044D8 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BCD41B4BADB8001044D8 /* PositionViewController.swift */; };
+		A2D7BCD71B4BCFED001044D8 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BCD61B4BCFED001044D8 /* OpacityViewController.swift */; };
+		A2D7BCD91B4C13A9001044D8 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BCD81B4C13A9001044D8 /* ScaleViewController.swift */; };
+		A2D7BCDB1B4C17BB001044D8 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BCDA1B4C17BB001044D8 /* ColorViewController.swift */; };
+		A2D7BCDD1B4C1C39001044D8 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7BCDC1B4C1C39001044D8 /* RotationViewController.swift */; };
+		A2D7D72D1B6299DF00584ABC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7D72C1B6299DF00584ABC /* LoginViewController.swift */; };
+		A2FD48961B6B66FC007A8379 /* KeyframeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD48951B6B66FC007A8379 /* KeyframeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A24BABD31B4CB8EA00FE04B7 /* RepeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
+		A24BABD51B4CC49600FE04B7 /* EasingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasingViewController.swift; sourceTree = "<group>"; };
+		A24BABD71B4CCD4000FE04B7 /* SpringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringViewController.swift; sourceTree = "<group>"; };
+		A25191361B64BD590026B27E /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		A288DDE71B6E194A00DD711E /* MassEffectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MassEffectViewController.swift; sourceTree = "<group>"; };
+		A288DDE91B6E502E00DD711E /* SpecialLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialLoginView.swift; sourceTree = "<group>"; };
 		A2AF37181B4BAAF800997496 /* AnimationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AF371C1B4BAAF800997496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2AF371D1B4BAAF800997496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +54,13 @@
 		A2AF372D1B4BAAF800997496 /* AnimationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AF37321B4BAAF800997496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2AF37331B4BAAF800997496 /* AnimationSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSampleTests.swift; sourceTree = "<group>"; };
+		A2D7BCD41B4BADB8001044D8 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
+		A2D7BCD61B4BCFED001044D8 /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
+		A2D7BCD81B4C13A9001044D8 /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
+		A2D7BCDA1B4C17BB001044D8 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		A2D7BCDC1B4C1C39001044D8 /* RotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
+		A2D7D72C1B6299DF00584ABC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A2FD48951B6B66FC007A8379 /* KeyframeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyframeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +84,7 @@
 		A2AF370F1B4BAAF800997496 = {
 			isa = PBXGroup;
 			children = (
+				A25191361B64BD590026B27E /* Reveal.framework */,
 				A2AF371A1B4BAAF800997496 /* AnimationSample */,
 				A2AF37301B4BAAF800997496 /* AnimationSampleTests */,
 				A2AF37191B4BAAF800997496 /* Products */,
@@ -79,6 +105,18 @@
 			children = (
 				A2AF371D1B4BAAF800997496 /* AppDelegate.swift */,
 				A2AF371F1B4BAAF800997496 /* ViewController.swift */,
+				A2D7BCD41B4BADB8001044D8 /* PositionViewController.swift */,
+				A2D7BCD61B4BCFED001044D8 /* OpacityViewController.swift */,
+				A2D7BCD81B4C13A9001044D8 /* ScaleViewController.swift */,
+				A2D7BCDA1B4C17BB001044D8 /* ColorViewController.swift */,
+				A2D7BCDC1B4C1C39001044D8 /* RotationViewController.swift */,
+				A24BABD71B4CCD4000FE04B7 /* SpringViewController.swift */,
+				A24BABD31B4CB8EA00FE04B7 /* RepeatViewController.swift */,
+				A24BABD51B4CC49600FE04B7 /* EasingViewController.swift */,
+				A2D7D72C1B6299DF00584ABC /* LoginViewController.swift */,
+				A2FD48951B6B66FC007A8379 /* KeyframeViewController.swift */,
+				A288DDE71B6E194A00DD711E /* MassEffectViewController.swift */,
+				A288DDE91B6E502E00DD711E /* SpecialLoginView.swift */,
 				A2AF37211B4BAAF800997496 /* Main.storyboard */,
 				A2AF37241B4BAAF800997496 /* Images.xcassets */,
 				A2AF37261B4BAAF800997496 /* LaunchScreen.xib */,
@@ -212,8 +250,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D7BCD51B4BADB8001044D8 /* PositionViewController.swift in Sources */,
+				A2D7BCD91B4C13A9001044D8 /* ScaleViewController.swift in Sources */,
+				A24BABD61B4CC49600FE04B7 /* EasingViewController.swift in Sources */,
+				A24BABD81B4CCD4000FE04B7 /* SpringViewController.swift in Sources */,
+				A288DDEA1B6E502E00DD711E /* SpecialLoginView.swift in Sources */,
 				A2AF37201B4BAAF800997496 /* ViewController.swift in Sources */,
+				A2D7BCD71B4BCFED001044D8 /* OpacityViewController.swift in Sources */,
+				A2FD48961B6B66FC007A8379 /* KeyframeViewController.swift in Sources */,
+				A288DDE81B6E194A00DD711E /* MassEffectViewController.swift in Sources */,
+				A2D7BCDD1B4C1C39001044D8 /* RotationViewController.swift in Sources */,
+				A24BABD41B4CB8EA00FE04B7 /* RepeatViewController.swift in Sources */,
+				A2D7BCDB1B4C17BB001044D8 /* ColorViewController.swift in Sources */,
 				A2AF371E1B4BAAF800997496 /* AppDelegate.swift in Sources */,
+				A2D7D72D1B6299DF00584ABC /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +390,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AnimationSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -350,8 +414,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AnimationSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -409,6 +487,7 @@
 				A2AF37391B4BAAF800997496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2AF373A1B4BAAF800997496 /* Build configuration list for PBXNativeTarget "AnimationSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +496,7 @@
 				A2AF373C1B4BAAF800997496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
